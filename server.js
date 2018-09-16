@@ -30,8 +30,8 @@ app.use(bodyParser.json({ type: 'application/vnd.api+json' }));
 var transport = nodemailer.createTransport({
     service: 'Gmail',
     auth: {
-        user: "codestacks97@gmail.com",
-        pass: "elearning123"
+        user: "",
+        pass: ""
     }
 
 });
